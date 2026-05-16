@@ -1,0 +1,22 @@
+{
+  "name": "movie-db",
+  "version": "1.0.0",
+  "description": "A simple movie app to practice my skills ",
+  "license": "ISC",
+  "author": "anderson",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

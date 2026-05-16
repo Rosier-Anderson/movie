@@ -1,0 +1,67 @@
+[
+{
+"id": 1,
+"title": "Inception",
+"overview": "A skilled thief enters people's dreams to steal secrets.",
+"poster_path": "/inception.jpg",
+"backdrop_path": "/inception-bg.jpg",
+"release_date": "2010-07-16",
+"vote_average": 8.8,
+"vote_count": 32000,
+"popularity": 98.5,
+"genre_ids": [28, 878, 12],
+"adult": false,
+"original_language": "en"
+},
+]
+
+
+```js
+[
+  {
+    title: "Inception",
+    overview: "A skilled thief enters people's dreams to steal secrets but is given a chance to erase his criminal past.",
+    release_data: new Date("2010-07-16"),
+    vote_count: 21000,
+    popularity: 95.7,
+    genre_ids: ["Action", "Sci-Fi", "Thriller"],
+    addult: false
+  },
+  {
+    title: "The Dark Knight",
+    overview: "Batman faces the Joker, a criminal mastermind who plunges Gotham City into chaos.",
+    release_data: new Date("2008-07-18"),
+    vote_count: 32000,
+    popularity: 98.4,
+    genre_ids: ["Action", "Crime", "Drama"],
+    addult: false
+  },
+  {
+    title: "Interstellar",
+    overview: "A group of astronauts travel through a wormhole in search of a new home for humanity.",
+    release_data: new Date("2014-11-07"),
+    vote_count: 25000,
+    popularity: 91.2,
+    genre_ids: ["Adventure", "Drama", "Sci-Fi"],
+    addult: false
+  },
+  {
+    title: "John Wick",
+    overview: "An ex-hitman comes out of retirement to track down the gangsters who took everything from him.",
+    release_data: new Date("2014-10-24"),
+    vote_count: 18000,
+    popularity: 87.9,
+    genre_ids: ["Action", "Thriller"],
+    addult: true
+  },
+  {
+    title: "Avatar",
+    overview: "A paraplegic Marine is sent to Pandora and becomes torn between following orders and protecting the alien world.",
+    release_data: new Date("2009-12-18"),
+    vote_count: 29000,
+    popularity: 99.1,
+    genre_ids: ["Action", "Adventure", "Fantasy"],
+    addult: false
+  }
+]
+```
