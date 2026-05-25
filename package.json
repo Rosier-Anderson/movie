@@ -8,7 +8,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "start:dev": " NODE_ENV=development nodemon server.js",
+    "start:prod": " NODE_ENV=production node server.js"
   },
   "dependencies": {
     "dotenv": "^17.4.2",

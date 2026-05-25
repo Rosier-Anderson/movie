@@ -32,27 +32,37 @@ const movieSchema = new mongoose.Schema({
   createdAt: {
     type: Date,
     default: Date.now(),
-    select: false
+    select: false,
+
   }
 
-}, {
+},
+  {
+    strict: 'throw'
+  }, {
   toJSON: { virtuals: true },
   toObject: { virtuals: true }
 });
 
-movieSchema.virtual("halfPopularity").get(function () {
-  return this.popularity / 2
+// movieSchema.virtual("halfPopularity").get(function () {
+//   return this.popularity / 2
 
-})
-// Document middleware 
-movieSchema.post("save", function(doc, next){
-  console.log(doc)
-  next()
-})
-movieSchema.pre("save", function (next) {
-this.vote_count = 3
-console.log(this)
-})
+// })
+// // Document middleware 
+// movieSchema.post("save", function(doc, next){
+//   console.log(doc)
+//   next()
+// })
+// movieSchema.pre("save", function (next) {
+// this.vote_count = 3
+// })
+
+// movieSchema.pre("find", function(next){
+
+//   next()
+// }
+
+// )
 //Query Middleware
 
 
